@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  vodka:
+    image: registry.hackynov.fr/chall_vodka
+    container_name: container_vodka
+    restart: always
+    ports:
+      - "19764:80"
+    tty: true
